@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "760797114395",
+    "firebase_url": "https://projetflickr-b46d4.firebaseio.com",
+    "project_id": "projetflickr-b46d4",
+    "storage_bucket": "projetflickr-b46d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760797114395:android:693f11a57fd79c765988be",
+        "android_client_info": {
+          "package_name": "btl2770a.dream.tpflickr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760797114395-r3n7ar7acl1qoiuhjn4sv2nmuv341v6k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSaBfuwntAW4Gf7_U4c8mHpopeEvYubRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "760797114395-r3n7ar7acl1qoiuhjn4sv2nmuv341v6k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

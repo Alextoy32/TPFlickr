@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TPFlickr</string>
+    <string name="all_images">All Images</string>
+    <string name="textview">TextView</string>
+    <string name="next">Next</string>
+    <string name="fullImage">imagePlainEcran</string>
+</resources>

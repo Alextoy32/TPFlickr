@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "760797114395-k2sk2aat1eekn0gun6ihf9u0eefuk3te.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "btl2770a.dream.tpflickr",
+            "certificate_hash": "5057ade9e43b82338be1716447b9b71afdca0e22"
+          }
+        },
+        {
           "client_id": "760797114395-r3n7ar7acl1qoiuhjn4sv2nmuv341v6k.apps.googleusercontent.com",
           "client_type": 3
         }

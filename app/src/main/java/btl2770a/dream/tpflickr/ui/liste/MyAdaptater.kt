@@ -44,7 +44,7 @@ class MyAdaptater(private val photos: List<Photo>, val callback: (Int) -> Unit) 
         Glide.with(holder.v).load(url).into(imageView)
 
         imageView.setOnClickListener{
-            val action = ListeDirections.actionListeToFullFragment(url)
+            val action = ListeDirections.actionListeToFullFragment(url,photos[position].title)
             Navigation.findNavController(holder.v).navigate(action);
         }
     }

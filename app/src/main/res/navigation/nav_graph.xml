@@ -4,9 +4,14 @@
             xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph"
             app:startDestination="@id/mainFragment">
 
-    <fragment android:id="@+id/mainFragment" android:name="btl2770a.dream.tpflickr.ui.main.MainFragment"
-              android:label="main_fragment" tools:layout="@layout/main_fragment">
-        <action android:id="@+id/versListeFragment" app:destination="@id/liste"/>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="btl2770a.dream.tpflickr.ui.main.MainFragment"
+        android:label="main_fragment"
+        tools:layout="@layout/main_fragment">
+        <action
+            android:id="@+id/versListeFragment"
+            app:destination="@id/liste" />
         <action
             android:id="@+id/action_mainFragment_to_fullFragment"
             app:destination="@id/fullFragment" />
@@ -24,6 +29,9 @@
         tools:layout="@layout/full_fragment" >
         <argument
             android:name="url"
+            app:argType="string" />
+        <argument
+            android:name="title"
             app:argType="string" />
     </fragment>
 </navigation>

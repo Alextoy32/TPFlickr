@@ -7,13 +7,16 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: "androidx.navigation.safeargs"
 //apply plugin: "androidx.navigation.safeargs.kotlin"
 
+apply plugin: 'com.google.gms.google-services'
+
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
     defaultConfig {
         applicationId "btl2770a.dream.tpflickr"
-        minSdkVersion 19
+        minSdkVersion 23
         targetSdkVersion 29
+        multiDexEnabled true
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -52,4 +55,11 @@ dependencies {
     implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
     implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
     implementation 'androidx.gridlayout:gridlayout:1.0.0'
+
+    // Add the SDKs for any other Firebase products you want to use in your app
+    // For example, to use Firebase Authentication and Cloud Firestore
+    implementation 'com.google.firebase:firebase-auth:19.2.0'
+
+    implementation 'com.firebaseui:firebase-ui-auth:4.3.1'
+    implementation 'com.google.firebase:firebase-firestore:21.3.1'
 }

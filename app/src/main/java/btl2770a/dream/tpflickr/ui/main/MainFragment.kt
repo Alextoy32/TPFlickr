@@ -42,7 +42,7 @@ class MainFragment : Fragment() {
             Glide.with(activity!!).load(url).into(imageView);
             titleView.text = photo.title
             imageView.setOnClickListener{
-                val action = MainFragmentDirections.actionMainFragmentToFullFragment(url)
+                val action = MainFragmentDirections.actionMainFragmentToFullFragment(url,photo.title)
                 findNavController().navigate(action)
             }
         })
